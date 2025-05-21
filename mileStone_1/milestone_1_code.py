@@ -6,7 +6,7 @@ number = age + 1
 print("Hello {}!, you will be {} next year!".format(name.title(), number))
 print("Anyways, do you have any pets? Answer with yes or no")
 answer = input().lower()
-#Addeding a loop to keep asking until a valid answer is received
+#The "While" function to add a loop to keep asking until a valid answer is received
 while answer not in ["yes", "no", "y", "n"]:
     print("Invalid input. Please answer with yes or no.")
     answer = input().lower()
