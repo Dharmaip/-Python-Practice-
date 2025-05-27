@@ -13,3 +13,6 @@ elif age <= 30:
 else:
     recommended_sleep = "7 - 8 hours per night"
 print("Hello {}! Since you are {} years old, I recommend you to sleep at {} for better health".format(name.title(), age, recommended_sleep))
+
+#Privacy implication
+#We will not store any of your data in our local device. We wll do our best to protect your privacy
